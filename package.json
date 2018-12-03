@@ -1,0 +1,14 @@
+{
+  "name": "Yomassive Records",
+  "version": "1.0.0",
+  "description": "Yomassive Records",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yomassive Records",
+  "license": "ISC",
+  "dependencies": {
+    "twitter": "*"
+  }
+}
