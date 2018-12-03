@@ -2,7 +2,7 @@
 // TWITTER
 
 var Twitter = require('twitter');
-var config = require('config');
+var config = require('./conf');
 var client = new Twitter(config);
 
 // POST
