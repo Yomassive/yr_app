@@ -6,7 +6,7 @@ var config = require('./config');
 var client = new Twitter(config);
 
 // POST
-var status = 'The best of house music in the web is here - yomassiverecords.ml #house #music #housemusic';
+var status = 'The best house music in the web is here - yomassiverecords.ml #house #music #housemusic';
 setInterval(function(){
   client.post('statuses/update', {status: status+' '+new Date().getMilliseconds()},  function(error, tweet, response) {
     if(error) throw error;
